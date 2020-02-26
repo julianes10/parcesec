@@ -1,0 +1,15 @@
+[Unit]
+Description=PareceSec service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/opt/PROJECT_NAME/parcesec/parcesec.py --configfile /etc/parcesec.conf
+WorkingDirectory=/opt/PROJECT_NAME/parcesec/
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+
