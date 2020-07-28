@@ -1,8 +1,4 @@
 #### NOTE IT WILL BE EXECUTED BY ROOT IN THE TARGET NOT IN LOCAL PC"
 #### CUSTOM ACTIONS FOR THIS PROJECT AFTER INSTALLING"
-systemctl start haproxy"
-
-
-
-
+systemctl start haproxy
 
