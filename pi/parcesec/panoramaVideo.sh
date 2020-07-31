@@ -20,7 +20,7 @@ cat <<EOF
 { "backPosition":true, 
    "data": [ {  "backPosition" : true, 
        "pan": { "ini":0, "end": 180}, 
-       "tilt": { "ini": 65, "end": 65}, 
+       "tilt": { "ini": 90, "end": 90}, 
        "duration" : $t, 
        "reverse": true, 
         "ntimes" : 1 }] 
@@ -30,7 +30,7 @@ else
 cat <<EOF
 { "backPosition":true, 
    "data": [ {  "backPosition" : true, 
-       "pan": { "ini":90, "end": 90}, 
+       "pan": { "ini":110, "end": 110}, 
        "tilt": { "ini": 0, "end": 90}, 
        "duration" : $t, 
        "reverse": true, 

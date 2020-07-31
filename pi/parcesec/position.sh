@@ -1,5 +1,5 @@
-#BASE_URL="http://localhost:5070/api/v1.0/picam"
-BASE_URL="http://192.168.1.44:5070/api/v1.0/picam"
+BASE_URL="http://localhost:5070/api/v1.0/picam"
+#BASE_URL="http://192.168.1.44:5070/api/v1.0/picam"
 
 e=$1
 
@@ -23,7 +23,7 @@ then
 cat <<EOF
 { "$e": { "delta" : "10" } }
 EOF
-elif [ "$d" == "+ee" ]
+elif [ "$d" == "+" ]
 then
 cat <<EOF
 { "$e": { "delta" : "5" } }
